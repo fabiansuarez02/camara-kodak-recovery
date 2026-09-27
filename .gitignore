@@ -1,0 +1,10 @@
+# Build output
+mjpgstream
+*.o
+
+# Firmware images are NOT published: the stock/modified .bin dumps contain
+# device-specific secrets (Wi-Fi PSK, root hash, factory MAC/EEPROM).
+*.bin
+*.img
+rom/
+dumps/
